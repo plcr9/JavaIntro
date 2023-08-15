@@ -1,12 +1,12 @@
 public class AssigningValuesToInstanceFields {
   String productType;
 
-  public Store(String product) {
+  public AssigningValuesToInstanceFields(String product) {
     productType = product;
   }
 
   public static void main(String[] args) {
-    Store lemonadeStand = new Store("lemonade");
+    AssigningValuesToInstanceFields lemonadeStand = new AssigningValuesToInstanceFields("lemonade");
     System.out.println(lemonadeStand.productType);
   }
 }
