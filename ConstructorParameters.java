@@ -1,7 +1,7 @@
 public class ConstructorParameters {
   String productType;
 
-  public Store(String product) {
+  public ConstructorParameters(String product) {
     productType = product;
   }
 
