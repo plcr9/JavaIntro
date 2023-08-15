@@ -1,14 +1,14 @@
 public class InstanceFields {
   String productType;
 
-  public Store() {
+  public InstanceFields() {
     System.out.println("I am inside the constructor method.");
   }
 
   public static void main(String[] args) {
     System.out.println("This code is inside the main method.");
 
-    Store lemonadeStand = new Store();
+    InstanceFields lemonadeStand = new InstanceFields();
 
     System.out.println(lemonadeStand);
   }
