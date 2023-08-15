@@ -1,5 +1,5 @@
 public class Constructors {
-  public Store() {
+  public Constructors() {
     System.out.println("I am inside the constructor method.");
   }
 
